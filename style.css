@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 20px;
+  background-color: #F3E5D8;
+}
+h1,h2{
+  font-family: serif;
+}
+main#simpleOmelette{
+  background-color: white;
+  width: 700px;
+  margin: auto;
+  border-radius: 12px;
+  padding: 50px;
+}
+div#imageOmeleteSimple{
+    max-width: min-content;
+   margin: auto;
+
+}
+h1,p{
+  margin: 10px;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+  width: 600px;
+  height: 300px;
+  border-radius: 8px; 
+}
+
+div#preparationTime{
+  width: 600px;
+  height: 150px;
+  background-color:#FFF7FC ;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+div#preparationTime > ul > li {
+  padding: 6px;
+}
+div#preparationTime > h3 {
+  color: #75344E;
+}
+h2{
+  margin: 8px;
+  color: #75344E;
+}
+ul#ingredientsList > li{
+  padding: 8px;
+}
+hr{
+  margin: 30px;
+}
+div#Instructions > ol > li{
+  padding: 8px;
+}
+table{
+  width: 600px;
+
+}
+
+table > tr > td {
+}
+td{
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
